@@ -1,4 +1,4 @@
-# Bhargavi Reddy – Data Analyst Portfolio
+# Bhargavi Reddy – Data Engineer Portfolio
 
 Hi! I am a Data Analyst with experience at CVS, Meta, and Accenture.
 
