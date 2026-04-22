@@ -1,20 +1,19 @@
 # Healthcare Dashboard Project (CVS)
 
-## Problem
-The company could not easily track healthcare data.
+## Overview
 
-## What I Did
-- Used SQL to get data
-- Cleaned data
-- Built dashboard in Tableau
+Built a scalable, HIPAA-compliant data platform on GCP to process healthcare data across claims, pharmacy, and clinical systems.
 
-- ## Dashboard Overview
+## Key Contributions
+Designed and implemented batch + streaming ETL pipelines using Apache Beam (Cloud Dataflow) to ingest multi-format healthcare data (HL7, JSON, Avro, Parquet) from 8+ source systems
+Built a centralized data lake on GCS, optimized with partitioning & clustering to support efficient analytics on 3TB+ datasets
+Developed real-time streaming pipelines (Pub/Sub + Dataflow + Kafka) achieving sub-5s latency for claims and pharmacy data processing
+Migrated legacy ETL workflows (SSIS, Oracle) to cloud-native GCP architecture, reducing operational overhead and improving reliability
+Modeled analytical datasets in BigQuery & Snowflake for downstream BI and compliance reporting
+Orchestrated workflows using Airflow (Cloud Composer) managing 20+ production pipelines with SLA monitoring
+Implemented data quality frameworks using Great Expectations and Dataplex
+Enforced HIPAA-compliant security (IAM, KMS, column-level security) across sensitive healthcare data
+Delivered curated datasets powering dashboards in Looker & Tableau
 
-Designed interactive dashboards tracking key KPIs, trends, and performance metrics. Included filters for time and categories to help stakeholders make data-driven decisions.
-
-## Impact
-- Helped teams understand data better
-- Improved decision-making
-
-## Tools
-SQL, Tableau, Python
+## Tech Stack
+GCP (Dataflow, Pub/Sub, BigQuery, GCS) | Python | PySpark | Kafka | Airflow | Terraform
