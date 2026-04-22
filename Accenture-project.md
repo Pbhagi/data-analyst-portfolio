@@ -3,6 +3,11 @@
 
 Built and optimized ETL pipelines for healthcare analytics, improving data quality, performance, and reporting reliability.
 
+## Impact
+Improved data readiness by 35%,
+Reduced duplicate records by 40%,
+Increased query performance by 45%,
+
 ## Key Contributions
 -Developed ETL pipelines using AWS Glue & PySpark to process claims, EHR, and lab data
 -Improved data readiness by 35% across clinical and billing analytics workflows
