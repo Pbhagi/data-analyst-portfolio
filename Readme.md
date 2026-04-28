@@ -50,7 +50,7 @@ I design and operate production-grade batch and streaming data pipelines on the 
 
 | Project | What It Demonstrates | Stack |
 | --- | --- | --- |
-| [Real-Time Streaming Pipeline](https://github.com/bhargavireddy/realtime-streaming-pipeline) | Sub-5s end-to-end ingestion, exactly-once semantics, schema evolution | Kafka · Spark Structured Streaming · Delta Lake |
+| [Real-Time Streaming Pipeline](project_1_Real-time-streaming-pipeline.md) | Sub-5s end-to-end ingestion, exactly-once semantics, schema evolution | Kafka · Spark Structured Streaming · Delta Lake |
 | [Cloud Lakehouse with Medallion Architecture](https://github.com/bhargavireddy/cloud-lakehouse-medallion) | Bronze/Silver/Gold layered lakehouse, partitioning & clustering, dbt models | BigQuery / Snowflake · dbt · Airflow · Iceberg |
 | [ML Feature & Embedding Pipeline](https://github.com/bhargavireddy/ml-feature-pipeline) | Offline + online feature parity, embedding generation, vector search | Feast · pgvector · PySpark · Airflow |
 | [Data Quality & Contract Framework](https://github.com/bhargavireddydata-quality-framework) | Schema validation, drift detection, alerting, CI integration | Great Expectations · dbt tests · OpenLineage · GitHub Actions |
